@@ -15,6 +15,7 @@ export default function Seo({ title }: ISeoProps) {
       }
     }
   `);
+
   return (
     <title>
       {title} | {data.site?.siteMetadata?.title}
